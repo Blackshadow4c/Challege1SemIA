@@ -17,10 +17,10 @@ public class Challege2 extends Agent {
 
     for ( zCont = 0; zCont < 12; zCont++){
       y = b0 + (b1 * x[zCont]); 
+      System.out.println("Y = "+y);
+      System.out.printf(" Year %d B0=  %d B1=  %d  . " ,zCont,b0,b1);
     }
-    System.out.println("Y = "+y);
-    System.out.printf(" Year %d B0=  %d B1=  %d  . " ,zCont,b0,b1);
-  	
+    
   	// Make this agent terminate
   	doDelete();
   } 
